@@ -1,9 +1,8 @@
 /* Put code for the task below */
 function click(){
-    var button =document.getElementById("clicky")
-    button.style.display= "none"
-}
-function click(){
-    var button =document.getElementById("appear")
-    button.style.display= "none"
+    var text =document.getElementById("clicky");
+    text.style.display= "none";
+
+    var newtext =document.getElementById("Clicked");
+    newtext.style.display= "block";
 }
